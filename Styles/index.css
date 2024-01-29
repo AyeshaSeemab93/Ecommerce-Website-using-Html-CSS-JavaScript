@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Spartan", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Global Styles */
+
+h1 {
+  font-size: 50px;
+  line-height: 64px;
+  color: #222;
+}
+
+h2 {
+  font-size: 46px;
+  line-height: 54px;
+  color: #222;
+}
+
+h4 {
+  font-size: 20px;
+  color: #222;
+}
+
+h6 {
+  font-weight: 700;
+  font-size: 12px;
+}
+
+p {
+  font-size: 16px;
+  color: #465b52;
+  margin: 15px 0 20px 0;
+}
+
+.section-p1 {
+  padding: 40px 80px;
+}
+
+.section-m1 {
+  margin: 40px 0;
+}
+
+body {
+  width: 100%;
+}
+#header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #E3E6F3;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+
+}
+#nav-bar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#nav-bar li{
+  list-style: none;
+  padding: 0 20px;
+  position: relative;
+  
+}
+#nav-bar li a{
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: #1a1a1a;
+  transition: 0.3s ease; /*make the color change on hover slow*/
+}
+#nav-bar li a:hover,
+#nav-bar li a.active{
+  color: #088178;
+}
+/* adding the underline style on hover(after) + on same page(active) */
+#nav-bar li a:hover::after,
+#nav-bar li a.active::after{
+  content: "";
+  width: 30%; /* width of underline*/
+  height: 2px;
+  background-color:  #088178;
+  position: absolute;
+  bottom: -4px;
+  left: 20px; 
+  transition: 0.3s ease; /*make the change slow*/
+
+}
+#hero{
+  background-image: url('../img/hero4.png');
+  background-position: top 25% right 35%;
+  height: 90vh;
+  width: 100%;
+  background-size: cover;
+  padding: 0 80px;
+  /* to bring the text to centre */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+
+
+
+
