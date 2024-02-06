@@ -1,0 +1,48 @@
+@media  only screen and (max-width:477px) {
+h1{
+  font-size: 38px;
+}
+h2{
+  font-size: 32px;
+  line-height: 22px;
+}
+.section-p1 {
+  padding: 20px 20px;
+}
+#hero {
+  width: 100%;
+  background-position: top 10% right 45%;
+  height: 70vh;
+  padding: 10px 20px;
+}
+#feature {
+  justify-content: space-around;
+}
+#feature .fe-box {
+  width: 150px;
+  margin: 0px 0 15px 0;
+}
+#product1 .pro {
+  width: 100%;
+}
+#banner {
+  height: 30vh;
+}
+#banner h2 {
+  font-size: 25px;
+}
+h2 {
+
+ 
+ 
+}
+#banner3 h2 {
+  font-weight: 900;
+  font-size: 12px;
+}
+#banner3 h3 {
+
+  font-weight: 800;
+  font-size: 12px;
+}
+}

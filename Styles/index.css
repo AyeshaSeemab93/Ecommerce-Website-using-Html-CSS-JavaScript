@@ -128,15 +128,14 @@ button.white{
 
 }
 #close,
-#mobile #bag,
-#mobile #burger{
+#mobile{
   display: none;
 
 }
 
 #hero{
   background-image: url('../img/hero4.png');
-  background-position: top 25% right 35%;
+  background-position: top 25% right 0%;
   height: 90vh;
   width: 100%;
   background-size: cover;
@@ -284,7 +283,7 @@ button.white{
   background-image: url('../img/banner/b2.jpg');
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   justify-content: center;
   vertical-align: middle;
   align-items: center;
@@ -357,7 +356,7 @@ button.white{
 #banner3{
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   justify-content: space-between;
   padding: 0 80px;
   
@@ -370,7 +369,6 @@ button.white{
   height: 30vh;
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
   justify-content: center;
   vertical-align: middle;
   align-items: flex-start;
@@ -380,7 +378,7 @@ button.white{
 }
 #banner3 .banner-box2{
   background-image: url('../img/banner/b4.jpg');
-  background-size: cover;
+  
 }
 #banner3 .banner-box3{
   background-image: url('../img/banner/b18.jpg');
@@ -400,12 +398,12 @@ button.white{
   background-image: url('../img/banner/b14.png');
   background-repeat: no-repeat;
   background-position:20% 30%;
-
   background-color: #041e42;
   height: 20vh;
   width: 100%;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
  
