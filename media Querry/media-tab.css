@@ -101,5 +101,9 @@ width: 70%;
   margin-right: 0rem;
 }
 
+/*blog.html*/
+#blog {
+  padding: 150px 100px 0 100px;
+}
 
 }
