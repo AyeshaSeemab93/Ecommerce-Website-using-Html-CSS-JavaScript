@@ -1,4 +1,7 @@
 @media  only screen and (max-width:799px) {
+  body {
+    padding-top: 80px; /* Adjust this value based on the height of your navigation bar */
+  }
   /* sidebar */
   #nav-bar{
     display: flex;
@@ -39,7 +42,6 @@
   display:initial;
   font-size: 20px;
   align-items: center;
-  padding-right: 20px;
 }
 #mobile i{
   color: black;
@@ -49,8 +51,6 @@
 #mobile #bag{
   font-size: 1.2rem;
 }
-
-
 
 #hero {
  width: 100%;
@@ -93,6 +93,12 @@
 }
 #newsletter .form {
 width: 70%;
+}
+/* sproduct.html */
+
+
+ #single-pro-detail .images-sec {
+  margin-right: 0rem;
 }
 
 

@@ -6,7 +6,9 @@
   box-sizing: border-box;
   font-family: "Spartan", sans-serif;
 }
-
+body {
+  padding-top: 80px; /* Adjust this value based on the height of your navigation bar */
+}
 html {
   scroll-behavior: smooth;
 }
@@ -136,7 +138,7 @@ button.white{
 #hero{
   background-image: url('../img/hero4.png');
   background-position: top 25% right 0%;
-  height: 90vh;
+  height: 60vh;
   width: 100%;
   background-size: cover;
   padding: 0 80px;

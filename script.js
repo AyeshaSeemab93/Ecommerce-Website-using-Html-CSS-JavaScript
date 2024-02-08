@@ -1,3 +1,4 @@
+/*Side Nav Bar*/
 const burger = document.getElementById('burger');
 const close = document.getElementById('close');
 const nav = document.getElementById('nav-bar');
@@ -14,5 +15,23 @@ if(close){
     nav.classList.remove('active');
   })
 }
+
+
+/*.............................................................................*/
+/*sproduct.html */
+
+//change main image on clicking the small images
+let mainImg = document.getElementById('mainImg');
+let smallImg = document.getElementsByClassName('smallImg')// 4 small images
+
+for(let i = 0; i < smallImg.length; i++){
+  smallImg[i].addEventListener('click', function(){
+    mainImg.src = smallImg[i].src;
+  })
+}
+
+
+
+
 
  

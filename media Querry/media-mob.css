@@ -1,4 +1,7 @@
 @media  only screen and (max-width:477px) {
+  body {
+    padding-top: 80px; /* Adjust this value based on the height of your navigation bar */
+  }
 h1{
   font-size: 38px;
 }
@@ -12,7 +15,7 @@ h2{
 #hero {
   width: 100%;
   background-position: top 10% right 45%;
-  height: 70vh;
+  height: 60vh;
   padding: 10px 20px;
 }
 #feature {
@@ -49,5 +52,32 @@ h2{
 #newsletter .form {
   width: 100%;
   padding: 10px 0;
+}
+/* sproduct.html */
+
+#single-pro-detail {
+  flex-direction: column;
+}
+
+#single-pro-detail .images-sec {
+  width: 100%;
+  
+}
+#single-pro-detail .pro-description {
+  padding-top: 30px;
+  width: 100%;
+  text-align:justify
+}
+.pro-description h4 {
+  padding: 20px 0 0px 0;
+}
+.mid-sec {
+  justify-content:flex-start;
+}
+.quantity {
+  padding-left: 0rem;
+}
+.pro-description h2 {
+  font-size: 20px;
 }
 }
