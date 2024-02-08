@@ -1,7 +1,13 @@
 @media  only screen and (max-width:799px) {
   body {
-    padding-top: 80px; /* Adjust this value based on the height of your navigation bar */
+    padding-top: 0px; /* Adjust this value based on the height of your navigation bar */
+    margin-top: 0;
   }
+  #header {  
+    padding: 18px;
+   
+}
+
   /* sidebar */
   #nav-bar{
     display: flex;
