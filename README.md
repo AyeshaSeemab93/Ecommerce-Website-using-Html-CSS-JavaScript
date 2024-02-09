@@ -1,6 +1,6 @@
 # Ecommerce Website using HTML, CSS, and JavaScript
 
-https://ayeshaseemab93.github.io/Ecommerce-Website-using-Html-CSS-JavaScript/contact.html
+https://ayeshaseemab93.github.io/Ecommerce-Website-using-Html-CSS-JavaScript/index.html
 
 This repository contains the source code for an Ecommerce Website developed using HTML, CSS, and JavaScript.
 
@@ -30,7 +30,7 @@ The Ecommerce Website is designed to provide a user-friendly shopping experience
 
 ## Live Demo
 
-Explore the live demo of the Ecommerce Website [here](https://ayeshaseemab93.github.io/Ecommerce-Website-using-Html-CSS-JavaScript/contact.html).
+Explore the live demo of the Ecommerce Website [here](https://ayeshaseemab93.github.io/Ecommerce-Website-using-Html-CSS-JavaScript/index.html).
 
 ## Additional Information
 
