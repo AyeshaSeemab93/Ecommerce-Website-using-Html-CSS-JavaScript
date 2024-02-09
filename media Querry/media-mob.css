@@ -141,4 +141,24 @@ h2{
 #form-details form input, #form-details form textarea {
   width: 100%;
 }
+/*cart.html*/
+/* to fix the width of each column in table*/
+
+
+#cart table td:nth-child(1){
+  width: 20px;
+  align-items: center;
+}
+#cart table td:nth-child(2){
+  width: 200px;
+}
+#cart table td:nth-child(3){
+  width: 150px;
+ 
+}
+#cart table td:nth-child(4),
+#cart table td:nth-child(5),
+#cart table td:nth-child(6){
+  width: 100px;
+}
 }
